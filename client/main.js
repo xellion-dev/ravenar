@@ -1,1 +1,4 @@
-// main entry point is in imports/ui/main.jsx
+// home function; Forked from my 'Wayland' website repo on my other account.
+function home() {
+    location.href = "/";
+}

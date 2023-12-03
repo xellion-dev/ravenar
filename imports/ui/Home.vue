@@ -1,10 +1,6 @@
-<script setup>
-import Hello from './Hello.vue'
-import Info from './Info.vue'
-</script>
-
-<template>
-  <h1 class="text-3xl font-bold my-6">Welcome to Meteor!</h1>
-  <Hello />
-  <Info />
+<template lang="pug">
+h1 Welcome to Ravenar
+p Ravenar is currently in beta. Please log in or sign up to continue
+button(class="action" onclick="home()") Log in
+button(class="action") Sign up
 </template>
