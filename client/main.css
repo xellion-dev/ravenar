@@ -115,16 +115,26 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  
-  .action {
-    color: white;
+  /*Button CSS rgba(7, 63, 88, 0.692)*/
+  .action::part(base) {
     background: rgba(7, 63, 88, 0.692);
-    border-radius: 12px;
-    border: solid 2px rgb(126, 126, 126) ;
+    border: solid 1px rgb(143, 143, 143);
   }
-  
-  .action:hover {
-    background: rgba(9, 77, 109, 0.692);
+
+  .action::part(base):hover {
+    background:rgba(11, 93, 131, 0.692);
+  }
+
+  .action::part(base):active {
+    background: rgba(7, 63, 88, 0.692);
+  }
+
+  .action::part(base):focus-visible {
+    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.33);
+  }
+
+  .action::part(label) {
+    color: rgb(223, 223, 223);
   }
   /*------------------------------------------------------------------------------> Start Footer CSS <--------------------------------------------------------------------------------*/
   .footer {
