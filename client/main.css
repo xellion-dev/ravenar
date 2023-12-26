@@ -136,6 +136,13 @@
   .action::part(label) {
     color: rgb(223, 223, 223);
   }
+
+  .usrin{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   /*------------------------------------------------------------------------------> Start Footer CSS <--------------------------------------------------------------------------------*/
   .footer {
     position: absolute;
