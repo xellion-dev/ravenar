@@ -1,19 +1,7 @@
-# Meteor + Vue3 + Vite
-
-This is a simple example of how to use Vue3 with Meteor.
-
-## How to use
-
-1. Clone this repo
-2. Run `meteor npm install`
-3. Run `meteor`
-4. Open `http://localhost:3000` in your browser
-
-## Libraries used
-
-- [Vue3](https://v3.vuejs.org/)
-- [Vite](https://vitejs.dev/)
-- [Vue Router](https://next.router.vuejs.org/)
-- [Meteor](https://www.meteor.com/)
-- [Vue Meteor Tracker](https://github.com/meteor-vue/vue-meteor-tracker)
-- [Tailwind CSS](https://tailwindcss.com/)
+## **Ravenar,** ***A XEL Service.***
+*This is the official repository for Ravenar(formerly Sonar).*
+Ravenar is a content platform along the lines of X (twitter) and YouTube. But better moderation and **NO ADS!!!!**
+I develop Ravenar in my own time and it's only fair for others to help! So contributions will be greatly appreciated. Licenced under the MIT Licence.
+ **DO NOT CLAIM THIS CODE AS YOUR OWN WORK!** 
+ *`original code made in htmlcss in 2021 rewritten and finished in Vue + Meteor.`*
+ (c) 2021 - 2024 XEL.
