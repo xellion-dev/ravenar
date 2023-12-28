@@ -1,9 +1,15 @@
 import { Meteor } from 'meteor/meteor'
 import { LinksCollection } from '/imports/api/links'
+import { Meteor } from 'meteor/meteor'
+import { Accounts } from 'meteor/accounts-base'
+import { TasksCollection } from '../imports/db/TasksCollection'
 
 async function insertLink({ title, url }) {
   await LinksCollection.insertAsync({ title, url, createdAt: new Date() })
 }
+
+const SEED_USERNAME = 'meteorite';
+const SEED_PASSWORD = 'password';
 
 Meteor.startup(async () => {
   // If the Links collection is empty, add some data.
@@ -28,4 +34,12 @@ Meteor.startup(async () => {
       url: 'https://forums.meteor.com',
     })
   }
+
+  if (!Accounts.findUserByUsername(SEED_USERNAME)) {
+    Accounts.createUser({
+      username: SEED_USERNAME,
+      password: SEED_PASSWORD,
+    });
+  }
+
 })
