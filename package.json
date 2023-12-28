@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/runtime": "^7.23.5",
     "@shoelace-style/shoelace": "^2.12.0",
+    "@vue/language-plugin-pug": "^1.8.27",
     "meteor-node-stubs": "^1.2.7",
     "vue": "^3.3.9",
     "vue-meteor-tracker": "^3.0.0-beta.7",
