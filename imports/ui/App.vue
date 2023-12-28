@@ -4,7 +4,6 @@ import AppMenu from './AppMenu.vue'
 
 <template>
   <div class="p-8">
-    <AppMenu />
     <router-view />
   </div>
 </template>
