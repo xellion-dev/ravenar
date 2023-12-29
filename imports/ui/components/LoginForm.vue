@@ -9,24 +9,15 @@ const submitForm = (event) => {
     event.preventDefault()
     Meteor.loginWithPassword(username.value, password.value)
 }
+
 </script>
 
-<template>
-  <form @submit="submitForm">
-    <div>
-      <label for="username">Username</label>
-      <input v-model="username" type="text" name="username" placeholder="Username" required>
-    </div>
-
-    <div class="mt-4">
-      <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
-      <input v-model="password" type="password" name="password" placeholder="Password" required>
-    </div>
-
-    <div>
-      <button type="submit">
-        Log in
-      </button>
-    </div>
-  </form>
+<template lang="pug">
+form(@submit="submitForm" class="loginform")
+  h1(class="login_h1") Log In
+  input(v-model="username" type="text" name="username" placeholder="Username" class="usrin" required)
+  input(v-model="password" type="password" name="password" placeholder="Password" class="usrin" required)
+  p Don't have an account? 
+   a(class="logina" href="signup") Sign up!
+  button(type="submit" class="action") Log in
 </template>
