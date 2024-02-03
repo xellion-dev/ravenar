@@ -1,0 +1,254 @@
+/* 
+                                                            
+    #   Envision    ## ####################                     
+   ####       #### ####################  ###                
+    ####    ####                         ###                
+      ###  ###            Create         ###                
+       #####       ####################  ###                
+        ####       ####################  ###                
+     #### ####                           ###                
+    ###    ####                          ###                
+  ###       ####   ####################  ###              
+ ##           ###                        ###  #### Lead                                
+                                           ################                           broski.
+*/
+/*------------------------------------------------------------------------------> Start   Stylus <---------------------------------------------------------------------------------------*/
+@font-face  
+  font-family  Avenir  
+  src  url(Fonts/Avenir.otf)  
+  
+
+@font-face  
+  font-family  Xelligraphy  
+  src  url(Fonts/Xelligraphy.otf)  
+  
+
+*  
+  font-family  Avenir  
+  margin  0  
+  padding  0  
+  box-sizing  border-box  
+  
+
+/*------------------------------------------------------------------------------> Start Navbar Stylus <--------------------------------------------------------------------------------*/
+body  
+  background-image  url(Images/backgroud_default.jpg)  
+  background-repeat  no-repeat  
+  background-size  cover  
+  justify-content  flex-end  
+  align-items  flex-end  
+  min-height  100vh  
+  
+
+.Navbar  
+  height  60px  
+  display  flex  
+  justify-content  center  
+  font-size  1.2rem  
+  margin  auto  
+  position  static  
+  top  0  
+  z-index  999  
+  
+
+.links  
+  list-style  none  
+  display  flex  
+  justify-content  space-between  
+  height  60px  
+  z-index  1  
+  width  100%  
+  margin  auto  
+  max-width  1300  
+  margin  0 auto  
+  padding  0 50px  
+  
+
+.nblink  
+  text-decoration  none  
+  padding  20px  
+  color  white  
+  
+
+.nblink hover  
+  background-color  rgba(9, 62, 105, 0.473)  
+  border-radius  26px  
+  transition  all 0.3s ease  
+  
+
+.logomain hover  
+  background-color  rgba(9, 62, 105, 0.473)  
+  border-radius  16px  
+  transition  all 0.3s ease  
+  
+
+/*------------------------------------------------------------------------------> Start Main Stylus <--------------------------------------------------------------------------------*/
+.main  
+  justify-content  center  
+  display  flex  
+  padding-top  3%  
+  width  100%  
+  text-align  center  
+  
+
+
+a  
+  color  white  
+  text-decoration  none  
+  
+
+p  
+  color  white  
+  font-size  1rem  
+  
+
+h1  
+  color  white  
+  font-size  2rem  
+  text-align  center  
+  
+
+h2  
+  color  white  
+  font-size  15px  
+  
+
+.logina 
+  color  rgb(226, 226, 226)  
+  font-style  italic  
+  
+
+/*Item color  rgba(7, 63, 88, 0.692)*/
+
+.action  
+  margin  2rem  
+  padding-top  1rem  
+  padding-bottom  1rem  
+  padding-left  2rem  
+  padding-right  2rem  
+  border-style  solid  
+  background-color  rgba(7, 63, 88, 0.692)  
+  border-color  #c9c9c9  
+  border-radius  21px  
+  border-width  2px  
+  font-family  'Courier New', Courier, monospace  
+  
+
+.action hover  
+  background-color  rgba(10, 86, 121, 0.692)  
+  
+
+.action active  
+  background-color  rgba(6, 55, 78, 0.692)  
+  
+
+.usrin  
+  padding-top  1rem  
+  padding-bottom  1rem  
+  padding-left  2rem  
+  padding-right  2rem  
+  margin-bottom  2rem  
+  border-radius  21px  
+  border-style  solid  
+  border-color  white  
+  background-color  rgb(53, 53, 53)  
+  font-size  15px  
+  color  white  
+  font-family  'Courier New', Courier, monospace  
+
+  
+
+.usrin  placeholder  
+  color  white  
+  font-family  'Courier New', Courier, monospace  
+  
+
+.usrin focus  
+  transition  all 0.3s ease  
+  outline  none  
+  border-color  rgba(6, 55, 78, 0.692)  
+  box-shadow  0 0 10px rgb(9, 83, 117)  
+  
+
+.usrin active  
+  background-color  rgb(53, 53, 53)  
+  
+
+.usrin -webkit-autofill,
+.usrin -webkit-autofill focus  
+  transition  background-color 600000s 0s, color 600000s 0s  
+  
+
+.loginform  
+  margin-left  20%  
+  margin-right  20%  
+  transition  ease-in  
+  
+
+.login_h1  
+  text-align  center  
+  align-self  center  
+  padding-bottom  1rem  
+  
+
+/*------------------------------------------------------------------------------> Start Footer Stylus <--------------------------------------------------------------------------------*/
+.footer  
+  position  absolute  
+  width  100%  
+  background  rgb(5, 58, 102)  
+  height  150px  
+  padding  20px 50px  
+  display  flex  
+  bottom  0  
+  justify-content  center  
+  align-items  center  
+  flex-direction  column  
+  
+
+.social-icon,
+.menu  
+  position  relative  
+  display  flex  
+  justify-content  center  
+  align-items  center  
+  margin  10px 0  
+  flex-wrap  wrap  
+  
+
+.social-icon__item,
+.menu__item  
+  list-style  none  
+  
+
+.social-icon__link  
+  font-size  2rem  
+  color  #fff  
+  margin  0 10px  
+  display  inline-block  
+  transition  0.5s  
+  
+
+.social-icon__link hover  
+  transform  translateY(-10px)  
+  
+
+.menu__link  
+  font-size  1.2rem  
+  color  #fff  
+  margin  0 10px  
+  display  inline-block  
+  transition  0.5s  
+  text-decoration  none  
+  opacity  0.75  
+  font-weight  300  
+  
+
+.menu__link hover 
+  opacity  1  
+
+
+.footer p 
+  color  #fff  
+  margin  15px 0 10px 0  
+  font-size  1rem  
+  font-weight  300  
