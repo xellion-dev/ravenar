@@ -3,7 +3,7 @@ import { Meteor } from 'meteor/meteor';
 
 import { ref, watch } from 'vue';
 import ContentBox from './components/ContentBox.vue'
-import LoginForm from './components/LoginForm.vue'
+import SignupForm from './components/SignupForm.vue'
 import { subscribe, autorun } from 'vue-meteor-tracker';
 
 
@@ -27,5 +27,5 @@ div(v-if="isLogged")
   button(@click="logout" class="action") Log Out
 
 div(v-else)
-  LoginForm
+  SignupForm
 </template>
