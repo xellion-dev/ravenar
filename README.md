@@ -1,4 +1,7 @@
 ## **Ravenar,** ***A XEL Service.***
+
+**MIGRATED TO GITLAB**
+
 *This is the official repository for Ravenar(formerly Sonar).*
 Ravenar is a content platform along the lines of X (twitter) and YouTube. But better moderation and **NO ADS!!!!**
 I develop Ravenar in my own time and it's only fair for others to help! So contributions will be greatly appreciated. Licenced under the MIT Licence.
