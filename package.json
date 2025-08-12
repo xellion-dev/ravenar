@@ -10,13 +10,15 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.23.5",
-    "@shoelace-style/shoelace": "^2.12.0",
+    "@babel/runtime": "^7.25.0",
+    "@display-studio/vue-player": "0.0.6",
+    "@shoelace-style/shoelace": "^2.16.0",
     "@vue/language-plugin-pug": "^1.8.27",
-    "meteor-node-stubs": "^1.2.7",
-    "vue": "^3.3.9",
+    "meteor-node-stubs": "^1.2.9",
+    "vue": "^3.4.36",
     "vue-meteor-tracker": "^3.0.0-beta.7",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.4.3",
+    "yarn": "^1.22.22"
   },
   "meteor": {
     "mainModule": {
@@ -26,16 +28,16 @@
     "testModule": "tests/main.js"
   },
   "devDependencies": {
-    "@types/meteor": "^2.9.7",
+    "@types/meteor": "^2.9.8",
     "@vitejs/plugin-vue": "^3.2.0",
-    "autoprefixer": "^10.4.16",
-    "meteor-vite": "^1.7.1",
-    "postcss": "^8.4.31",
-    "pug": "^3.0.2",
+    "autoprefixer": "^10.4.20",
+    "meteor-vite": "^1.10.4",
+    "postcss": "^8.4.41",
+    "pug": "^3.0.3",
     "pug-plain-loader": "^1.1.0",
     "stylus": "^0.62.0",
     "stylus-loader": "^7.1.3",
-    "tailwindcss": "^3.3.5",
-    "vite": "^3.2.7"
+    "tailwindcss": "^3.4.8",
+    "vite": "^3.2.10"
   }
 }

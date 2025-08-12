@@ -24,7 +24,8 @@ watch(
 
 <template lang="pug">
 div(v-if="isLogged")
-  h1 Welcome back, {{ name }}
+  h1 Welcome back, {{ name }}.
+  p(style="{margin-top: 12px;}") Here is your feed
   ContentBox
   button(@click="logout" class="action") Log Out
 
